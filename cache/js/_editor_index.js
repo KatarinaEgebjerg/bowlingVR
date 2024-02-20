@@ -1,0 +1,8 @@
+import * as __wonderlandengine_components from '@wonderlandengine/components';
+_registerEditor(__wonderlandengine_components);
+import * as _C__Users_luffe_OneDrive_Dokumenter_WonderlandEngine_bowling_js_button_js from 'C:/Users/luffe/OneDrive/Dokumenter/WonderlandEngine/bowling/js/button.js';
+_registerEditor(_C__Users_luffe_OneDrive_Dokumenter_WonderlandEngine_bowling_js_button_js);
+import * as _C__Users_luffe_OneDrive_Dokumenter_WonderlandEngine_bowling_js_changecolour_js from 'C:/Users/luffe/OneDrive/Dokumenter/WonderlandEngine/bowling/js/changecolour.js';
+_registerEditor(_C__Users_luffe_OneDrive_Dokumenter_WonderlandEngine_bowling_js_changecolour_js);
+import * as _C__Users_luffe_OneDrive_Dokumenter_WonderlandEngine_bowling_pp_index_js from 'C:/Users/luffe/OneDrive/Dokumenter/WonderlandEngine/bowling/pp/index.js';
+_registerEditor(_C__Users_luffe_OneDrive_Dokumenter_WonderlandEngine_bowling_pp_index_js);
