@@ -1501,169 +1501,6 @@
             "parent": "167",
             "skin": "166"
         },
-        "194": {
-            "name": "Panel",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "195",
-                        "material": "202"
-                    }
-                }
-            ],
-            "translation": [
-                -1.8607803,
-                1.1999928,
-                6.5344624
-            ],
-            "rotation": [
-                0.5002121,
-                0.0,
-                0.0,
-                0.8659028
-            ],
-            "scaling": [
-                0.25,
-                0.1249997,
-                0.2499997
-            ],
-            "parent": "283"
-        },
-        "196": {
-            "link": {
-                "name": "Cube",
-                "file": "models\\button.glb"
-            },
-            "parent": "197",
-            "components": [
-                {
-                    "mesh": {
-                        "material": "26"
-                    }
-                }
-            ],
-            "name": "ButtonMesh",
-            "translation": [
-                -0.0000094,
-                0.3244419,
-                -0.0000676
-            ],
-            "rotation": [
-                6.000006465001206e-7,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                1.0,
-                0.9999989,
-                0.9999989
-            ]
-        },
-        "197": {
-            "name": "Button",
-            "parent": "194",
-            "components": [
-                {
-                    "type": "collision",
-                    "collision": {
-                        "collider": "box",
-                        "box": {
-                            "extents": [
-                                0.0974999,
-                                0.025,
-                                0.045
-                            ]
-                        },
-                        "groups": 251
-                    }
-                },
-                {
-                    "type": "cursor-target"
-                },
-                {
-                    "type": "button",
-                    "button": {
-                        "buttonMeshObject": "196",
-                        "hoverMaterial": "203"
-                    }
-                }
-            ],
-            "translation": [
-                0.0,
-                0.057682,
-                0.175434
-            ],
-            "rotation": [
-                -0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scaling": [
-                0.4,
-                0.4999999,
-                0.3
-            ]
-        },
-        "198": {
-            "name": "ButtonLabel",
-            "parent": "196",
-            "components": [
-                {
-                    "type": "text",
-                    "text": {
-                        "text": "Thanks!"
-                    }
-                }
-            ],
-            "translation": [
-                -0.0001563,
-                0.1084579,
-                0.0000046
-            ],
-            "rotation": [
-                -0.7068095,
-                0.0,
-                0.0,
-                0.7074038
-            ],
-            "scaling": [
-                2.5,
-                3.7999999,
-                4.8000063
-            ]
-        },
-        "200": {
-            "name": "Title",
-            "parent": "194",
-            "components": [
-                {
-                    "type": "text",
-                    "text": {
-                        "text": "Welcome to\nWonderland",
-                        "material": "201"
-                    }
-                }
-            ],
-            "translation": [
-                -0.0000023,
-                0.1554993,
-                -0.303415
-            ],
-            "rotation": [
-                -0.7068591,
-                0.0,
-                0.0,
-                0.7073543
-            ],
-            "scaling": [
-                1.5,
-                3.0000002,
-                1.5000001
-            ]
-        },
         "205": {
             "name": "TrackedSpace",
             "parent": "14",
@@ -1877,7 +1714,7 @@
             "translation": [
                 0.0,
                 0.0,
-                0.0
+                4.5919771
             ],
             "rotation": [
                 0.0,
@@ -1980,8 +1817,8 @@
                         "_myCameraNonXR": "17",
                         "_myEyeLeft": "18",
                         "_myEyeRight": "19",
-                        "_myHandLeft": "134",
-                        "_myHandRight": "167"
+                        "_myHandLeft": "130",
+                        "_myHandRight": "129"
                     }
                 }
             ],
@@ -6914,13 +6751,6 @@
             },
             "parent": "2346"
         },
-        "2348": {
-            "link": {
-                "name": "Object_4<pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
-                "file": "models\\bowling_pin.glb"
-            },
-            "parent": "2347"
-        },
         "2349": {
             "link": {
                 "name": "Object_5<pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
@@ -7135,6 +6965,185 @@
                 1.0
             ],
             "parent": "283"
+        },
+        "2354": {
+            "link": {
+                "name": "False Ceiling_Material #28_0<False Ceiling<RootNode<e53d022c4cd644af84cd1e53d39de264.fbx<Sketchfab_model",
+                "file": "models\\big_lebowski_bowling_alley.glb"
+            },
+            "parent": "1104",
+            "components": [
+                {
+                    "mesh": {
+                        "material": "381"
+                    }
+                }
+            ]
+        },
+        "2355": {
+            "link": {
+                "name": "Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "translation": [
+                -1.03381,
+                0.0000071,
+                -13.4751873
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                1.0,
+                0.9999016,
+                0.9999016
+            ],
+            "name": "Pin",
+            "components": [
+                {
+                    "type": "physx",
+                    "physx": {
+                        "shape": "box",
+                        "box": {
+                            "extents": [
+                                0.0799999,
+                                0.1,
+                                0.15
+                            ]
+                        },
+                        "translationOffset": [
+                            0.0,
+                            0.0,
+                            0.15
+                        ]
+                    }
+                }
+            ],
+            "parent": "283"
+        },
+        "2356": {
+            "link": {
+                "name": "root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2355"
+        },
+        "2357": {
+            "link": {
+                "name": "GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2356"
+        },
+        "2358": {
+            "link": {
+                "name": "pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2357"
+        },
+        "2361": {
+            "link": {
+                "name": "Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "translation": [
+                -1.03381,
+                0.0000071,
+                -13.4751873
+            ],
+            "rotation": [
+                -0.7071066,
+                0.0,
+                0.0,
+                0.7071068
+            ],
+            "scaling": [
+                1.0,
+                0.9999016,
+                0.9999016
+            ],
+            "name": "Pin",
+            "components": [
+                {
+                    "type": "physx",
+                    "physx": {
+                        "shape": "box",
+                        "box": {
+                            "extents": [
+                                0.0799999,
+                                0.1,
+                                0.15
+                            ]
+                        },
+                        "translationOffset": [
+                            0.0,
+                            0.0,
+                            0.15
+                        ]
+                    }
+                }
+            ],
+            "parent": "283"
+        },
+        "2362": {
+            "link": {
+                "name": "root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2361"
+        },
+        "2363": {
+            "link": {
+                "name": "GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2362"
+        },
+        "2364": {
+            "link": {
+                "name": "pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2363"
+        },
+        "2366": {
+            "link": {
+                "name": "Object_5<pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2364"
+        },
+        "2360": {
+            "link": {
+                "name": "Object_5<pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2358"
+        },
+        "2359": {
+            "link": {
+                "name": "Object_4<pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2358"
+        },
+        "2348": {
+            "link": {
+                "name": "Object_4<pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2347"
+        },
+        "2365": {
+            "link": {
+                "name": "Object_4<pinStripe_3<GLTF_SceneRootNode<root<Sketchfab_model",
+                "file": "models\\bowling_pin.glb"
+            },
+            "parent": "2364"
         }
     },
     "meshes": {
